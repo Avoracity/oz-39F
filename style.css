@@ -1,0 +1,20 @@
+body{
+    background-color: beige;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font: 'Segoe UI';
+ 
+}
+
+h1{
+    background-color:rgb(52, 87, 117);
+    margin:auto;
+    text-align: center;
+    
+}
+
+.QnA{
+  background-color:bisque;  
+
+  padding: 10px 0px 10px 20px;
+}
+
