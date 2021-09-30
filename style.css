@@ -51,10 +51,11 @@ p{
   background-color: #f3f3f3;
   text-align: right;
   
+  
 }
 
 .content-table tbody tr:nth-of-type(odd) {
-  background-color: #f3f3f3;
+  background-color: #e2e2d9;
   text-align: right;
   
 }
@@ -65,6 +66,7 @@ p{
 .content-table tbody tr.active-row {
   font-weight: bold;
   color: rgb(52, 87, 117);
+
 }
 
 
@@ -72,6 +74,7 @@ p{
 	border: 0;
 	outline: none;
 	color: #8b7d77;
+  
 }
 
 .search_box{
