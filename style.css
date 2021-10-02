@@ -1,5 +1,5 @@
 body{
-    background-color: beige;
+    background-color: rgb(255, 234, 226);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font: 'Segoe UI';
   
@@ -22,7 +22,6 @@ p{
 
 
 .content-table {
-  border-collapse: collapse;
   margin: 25px 0;
   font-size: 0.9em;
   min-width: 400px;
@@ -34,7 +33,7 @@ p{
 .content-table thead tr {
   background-color: rgb(52, 87, 117);
   color: #ffffff;
-  text-align: left;
+  text-align: right;
   font-weight: bold;
 }
 
@@ -45,12 +44,21 @@ p{
 
 .content-table tbody tr {
   border-bottom: 1px solid #dddddd;
+ 
 }
 
 .content-table tbody tr:nth-of-type(even) {
   background-color: #f3f3f3;
+  text-align: right;
+  
+  
 }
 
+.content-table tbody tr:nth-of-type(odd) {
+  background-color: #e2e2d9;
+  text-align: right;
+  
+}
 .content-table tbody tr:last-of-type {
   border-bottom: 2px solid rgb(52, 87, 117);
 }
@@ -58,4 +66,39 @@ p{
 .content-table tbody tr.active-row {
   font-weight: bold;
   color: rgb(52, 87, 117);
+
+}
+
+
+.container .input{
+	border: 0;
+	outline: none;
+	color: #8b7d77;
+  
+}
+
+.search_box{
+  width: 50%;
+  position: fixed;
+
+}
+
+.search_box input[type="text"]{
+  width: 100%;
+  padding: 20px;
+  padding-right: 60px;
+  box-sizing: border-box;
+  background: rgba(0, 0, 0, 0.3);
+  border: 2px #fff;
+  border-radius: 10px;
+  color: #fff;
+  outline: none;
+}
+
+.fa-search{
+  width: 50%;
+  position: fixed;
+  color: #fff;
+  right: 8%;
+  top: 6.5%;
 }
