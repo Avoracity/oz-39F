@@ -1,0 +1,71 @@
+html{
+  background:#f2d5c3;
+
+}
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana,Source Sans Pro, 'Varta', sans-serif;
+    background: #ffffff;
+    padding-bottom: 50px;
+    
+}
+
+h1{
+    margin:auto;
+    text-align: center;
+    
+}
+
+
+/* navbar text */
+.navbar-brand-1 {
+  font-family: Source Sans Pro;
+  font-weight:500;
+  color: rgb(252, 249, 249);
+  
+}
+
+/* navbar box */
+.navbar {
+  width: auto;
+  height: 100px;
+  background-color:#994741;
+  box-shadow: 1px 10px 25px grey;
+  
+}
+
+
+
+/* gray search bar */
+.search_box input[type="text"]{
+  width: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+  background: rgba(0, 0, 0, 0.3);
+  border: 2px #fff;
+  border-radius: 10px;
+  color: #fff;
+  outline: none;
+  position: fixed;
+  
+}
+
+/* box below navbar box */
+.wrapper {
+  padding-bottom: 200px;
+  width:100%;
+  background-color: rgb(245, 241, 241);
+
+}
+
+/* Question and Answer text */
+th {
+  color:#fff;
+  
+}
+
+/* table heading box */
+#tableh{
+  background-color: #b96862;
+  
+}
+
