@@ -29,7 +29,8 @@ function searchTable(value, data){
    for (var i = 0; i < data.length; i++){
       value = value.toLowerCase()
       var question =  data[i].question.toLowerCase()
-      if (question.includes (value)){
+      var answer = data[i].answer.toLowerCase()
+      if (question.includes (value) || answer.includes(value) ){
          filteredData.push(data[i])
       }
    }
