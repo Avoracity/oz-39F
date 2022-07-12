@@ -15,7 +15,7 @@ function modifyCtrlF(){
   $(window).keydown(function(e){
     if ((e.ctrlKey || e.metaKey) && e.keyCode === 70) {
         e.preventDefault();
-
+         $('#search-input').focus(); // focuses on the input field
     }
   });
 }
