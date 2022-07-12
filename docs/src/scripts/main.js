@@ -1,6 +1,5 @@
 
 
-
 function readKeyup(){
    $('#search-input').on('keyup', function(){
       var value = $(this).val()
