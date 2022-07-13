@@ -28,9 +28,9 @@ h1{
 .navbar {
   
   width: auto;
-  height: 100px;
+  height: 70px;
   background-color:#AD735F;
-  box-shadow: 1px 10px 25px grey;
+  box-shadow: 1px 1px 5px grey;
   color : white;
   
 }
@@ -40,11 +40,11 @@ h1{
 /* gray search bar */
 .search_box input[type="text"]{
   width: 30%;
-  padding: 20px;
+  padding: 10px;
   box-sizing: border-box;
   background: rgba(0, 0, 0, 0.3);
   border: 2px #fff;
-  border-radius: 30px;
+  border-radius: 20px;
   color: #fff;
   outline: none;
   position: fixed;
@@ -69,6 +69,8 @@ h1{
 
 /* entire table */
 .table-striped {
+  box-shadow: 1px 1px 5px grey;
+
   max-width: 80%;
   max-height: 80%;
   margin: 0 auto;
