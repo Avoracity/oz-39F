@@ -1,17 +1,17 @@
 {
 
-   function readKeyup(){
+   function read_keyup(){
       $('#search-input').on('keyup', function(){
          var value = $(this).val()
          console.log('Value: ', value)
-         var data = searchTable(value, ozArray)
-         buildTable(data)
+         var data = table_search(value, ozArray)
+         build_table(data)
       })
 
    }  
-   readKeyup();
+   read_keyup();
 
-   function modifyCtrlF(){
+   function modify_ctrl_f(){
    $(window).keydown(function(e){
       if ((e.ctrlKey || e.metaKey) && e.keyCode === 70) {
          e.preventDefault();
@@ -19,11 +19,11 @@
       }
    });
    }
-   modifyCtrlF();
+   modify_ctrl_f();
 
-   buildTable(ozArray)
+   build_table(ozArray)
 
-   function searchTable(value, data){
+   function table_search(value, data){
       var filteredData = []
       for (var i = 0; i < data.length; i++){
          value = value.toLowerCase()
@@ -37,31 +37,37 @@
    }
 
 
-   buildTable(ozArray);
+   build_table(ozArray);
 
-   function buildTable(data){
+   function build_table(data){
       var table = document.getElementById('myTable')
-      table.innerHTML = ''
-      
+      table.innerHTML = '';
+      var question = ""; 
+      var answer = "";
       for (var i = 0; i < data.length; i++){
+         question = data[i].question;
+         answer = data[i].answer;
+
+         var answer_block = multi_answers(answer)
+
          var row = `<tr>
-                     <td>${data[i].question}</td>
-                     <td>${data[i].answer}</td> 
+                     <td>${question}</td>
+                     <td>${answer_block}</td> 
                </tr>`
          table.innerHTML += row
 
 
       }
+
+      function multi_answers(answer) {
+         if (answer.includes(',')) {
+            var answer = answer.split(',')
+            var answer = answer.join('<br>')
+         }
+         return answer
+      }
    }  
 
-   // check if there are multi answers and list them
-   function multi_answers(data) {
-      if ( data.contains('|') ){
-         var answers = data.split('|');
-         return answers;
-      }
-      else { return data; }
-   } 
 
 
 

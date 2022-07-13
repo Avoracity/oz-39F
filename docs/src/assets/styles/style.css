@@ -1,11 +1,16 @@
-
-body{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana,Source Sans Pro, 'Varta', sans-serif;
-    padding-bottom: 50px;
+html {
+  background-color: #FFE9D0;
 
 }
 
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana,Source Sans Pro, 'Varta', sans-serif;
+    overflow-y: overlay;
+    scrollbar-gutter: stable;
+    margin-right: 10px;
+    color:  #FFE9D0;
 
+}
 
 h1{
     margin:auto;
@@ -39,7 +44,7 @@ h1{
 
 /* gray search bar */
 .search_box input[type="text"]{
-  width: 30%;
+  width: 50%;
   padding: 10px;
   box-sizing: border-box;
   background: rgba(0, 0, 0, 0.3);
@@ -77,5 +82,20 @@ h1{
   border-width: 1px;
   padding: 1px;
   background-color: white;
+}
+
+/* scroll bar */
+
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #56423C;
+}
+
+::-webkit-scrollbar-track {
+  background: rgba(0, 0, 0, 0.2);
 }
 
