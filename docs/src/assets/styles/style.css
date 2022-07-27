@@ -50,10 +50,12 @@ h1{
   bottom: 20%;
   font-size: 1.7em;
   right: 50%;
+
 }
 
 .oz-music-redirect {
   font-family: Source Sans Pro;
+  text-align: justify;
   font-weight:900;
   position: absolute;
   bottom: 20%;
@@ -67,19 +69,17 @@ h1{
 /* gray search bar */
 .search_box input[type="text"]{
   width: 30%;
-  height: 65%;
+  height: 3%;
   position: absolute;
   left:  65%;
-  bottom: 15%;
-  padding: 5px;
+  bottom: 10%;
+  padding: 30px;
   box-sizing: border-box;
   background: rgba(0, 0, 0, 0.3);
   border: 2px #fff;
   border-radius: 20px;
   color: #fff;
   outline: none;
-  text-align: left;
-  
 
 }
 
@@ -128,6 +128,8 @@ h1{
   
 }
 
+
+
 /* scroll bar */
 
 ::-webkit-scrollbar {
@@ -147,7 +149,7 @@ h1{
   position: fixed;
   width: 100%;
   height: 100%;
-  overflow: hidden;
+  
 }
 
 .oz-music-table {
@@ -168,5 +170,18 @@ h1{
   box-shadow: 1px 1px 5px grey;
   font-family: Source Sans Pro;
   font-weight: 600;
+  
+}
+
+.oz-music-card oz-pic {
 
 }
+
+.oz-music-card oz-audio {
+
+}
+
+.oz-music-card oz-audio-btn {
+
+}
+
