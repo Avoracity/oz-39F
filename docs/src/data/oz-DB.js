@@ -63,7 +63,7 @@ var ozArray = [
     {"question": " Which of these cities does NOT exist in MapleStory? " , "answer": " Aqua Aqua    ,Cunning City    ,Edinburgh    ,El Segundo    ,Fenesys  ,Frankenstein ,Margaret,    ,Sacramento   ,Sleeping Forest    ,Swan Town " },
     {"question": " Which of these is NOT a crafting item in MapleStory? " , "answer": " Loving Chocolate  ,Fairy Sand  ,Hyacinth Juice  ,Kryptonite Ore  ,Magnus Sweat,  Nickel  ,Penicillin  ,Pulsatilla Seed  ,Used Fabric  ,Zakum Phlegm " },
     {"question": " Which of these is NOT a one-handed weapon? " , "answer": " Beatstick  ,Doombringer  ,Facebuster  ,Forked Spear  ,Gallant Wings  ,Lion's Fang  Lunar Glory  ,Pioneer's Dual Wings  ,Twin Zephyrs  ,Wooden Mallet " },
-    {"question": " Which of these is NOT a Paladin skill? " , "answer": " ,Blaze Defense  ,Blessing  ,Chase  ,Divine Sword  ,Faint Prayer  ,Haste  ,Lightning Action  Mendable Claw  ,Ordinance  ,Regal Stretch " },
+    {"question": " Which of these is NOT a Paladin skill? " , "answer": " Blaze Defense  ,Blessing  ,Chase  ,Divine Sword  ,Faint Prayer  ,Haste  ,Lightning Action  Mendable Claw  ,Ordinance  ,Regal Stretch " },
     {"question": " Which of these is NOT a Shade skill? " , "answer": " Chase Cut   ,Dead Or Alive  ,Heavy Hammer  ,Hyper Buting  ,Pink Punch Really Angry Fist, Scuffle,  Sleeper Hold,  Stumping A Mudhole,  Super Mega Awesome Punch " },
     {"question": " Which of these is NOT a skill of a Battle Mage? " , "answer": " Draw Mana " },
     {"question": " Which of these is NOT a skill of a Cannoneer? " , "answer": " Fast Reload " },
