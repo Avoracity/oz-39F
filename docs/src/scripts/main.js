@@ -44,12 +44,13 @@
       table.innerHTML = '';
       var question = ""; 
       var answer = "";
+
       for (var i = 0; i < data.length; i++){
          question = data[i].question;
          answer = data[i].answer;
 
          var answer_block = multi_answers(answer)
-
+         
          var row = `<tr>
                      <td>${question}</td>
                      <td>${answer_block}</td> 
