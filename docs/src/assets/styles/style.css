@@ -21,7 +21,16 @@ h1{
 
 .bg-wallpaper {
   background-color: #FFE9D0;
+  
 
+}
+
+/* sticky navbar */
+.search-navbar-container {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  
 }
 
 /* navbar text */
@@ -40,7 +49,7 @@ h1{
   height: 70px;
   background-color:#AD735F;
   color : white;
-
+  
 }
 
 .oz-quiz-redirect {
@@ -85,18 +94,31 @@ h1{
 
 
 /* box below navbar box */
-.wrapper {
-  padding-bottom: 150px;
+.block-wrapper {
+  padding-bottom: 350px;
   width:100%;
+  background-color: #FFF7EA;
 
 }
 
-
-
-/* table heading box */
 #table_h{
   background-color: #AD735F;
   color: #fff;
+}
+
+/* table heading box */
+.portion-wrapper{
+  background-color: #AD735F;
+  color: #fff;
+  text-align: center;
+  max-width: 80%;
+  max-height: 80%;
+  margin: 0 auto;
+  padding: 50px;
+  font-size: 1.3em;
+  font-weight: 900;
+  box-shadow: 1px 1px 5px grey;
+
 }
 
 /* entire table */
@@ -129,7 +151,6 @@ h1{
 }
 
 
-
 /* scroll bar */
 
 ::-webkit-scrollbar {
@@ -145,12 +166,7 @@ h1{
   background: rgba(0, 0, 0, 0.2);
 }
 
-.search-navbar-container {
-  position: fixed;
-  width: 100%;
-  height: 100%;
-  
-}
+
 
 .oz-music-table {
   box-shadow: 1px 1px 5px grey;
@@ -164,8 +180,10 @@ h1{
 
 .oz-music-card {
   padding: 50px;
+  background-color: white;
+
   margin: 0 auto;
-  text-align: center;
+  text-align: left;
   height: 70%;
   box-shadow: 1px 1px 5px grey;
   font-family: Source Sans Pro;
